@@ -63,3 +63,20 @@ h6{
 footer{
     margin-top: 30px;
 }
+.under{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.para{
+    margin-top: 10px; 
+    text-align: center;
+}
+.col{
+    margin-left: 300px;
+}
+
+
+.hi{
+    margin-left: -40px;
+}

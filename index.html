@@ -2,9 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles/reset.css">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./styles/media.css">
     <title>lecture11</title>
 </head>
 <body>
@@ -12,22 +21,64 @@
         <p> contact</p>
         <h1 style="height: 112px; width: 371px;"> Contact us to get free support</h1>
         <form style="display: flex;">
-                <div style="display: flex;">
-                    <input style="width: 756px; height: 298px; margin-right: 20px;" type="text" placeholder="Description">
+                <div class="text">
+                    <input style="width: 756px; height: 298px; margin-right: 20px;" type="text" placeholder="Description"> 
                 </div>
-                <div style="display: flex; flex-direction: column; margin-right: 10px;">
+                <div class="form" style="display: flex; flex-direction: column; margin-right: 10px;">
                     <input type="text" placeholder="Subject">
                     <input type="text" placeholder="Name / Surname">
                     <input type="email" placeholder="Email">
                     <input type="submit" value="send" style="background-color: #5968F4;">
                 </div>
         </form>
+        <div class="flex" style="display: flex; margin-top: 100px; justify-content: space-around; flex-wrap: wrap;">
+            <div class="col0">
+                <div class="circle">
+                    <i class="fa-solid fa-phone" style="background-color:#5968F4; padding: 20px; border-radius:40px;"></i>
+                </div>
+                
+                <div class="hi">
+                    <p class="para">Email</p>
+                    <h1 class="under">education@yahoo.edu.ge</h1>
+                    <h1 class="under">edu.e.education@yahoo.edu.ge</h1>
+                </div>
+                
+                
+            </div>
+            
+
+            <div class="col"> 
+                <div class="circle">
+                    <i class="fa-solid fa-envelope" style="background-color:#5968F4; padding: 20px; border-radius:40px; "></i>
+                </div>
+            
+                <div class="hi">
+                    <p class="para">Phone</p>
+                    <h1 class="under">+995 591 66 6456</h1>
+                    <h1 class="under">+995 591 66 6876</h1>
+                </div>
+            </div>
+                
         
-        
-        <p> Photos</p>
-        <h1 style="height: 112px; width: 548px; "> See our latest photos from restaurant and hotel</h1>
+            <div class="col">
+                <div class="circle">
+                    <i class="fa-solid fa-location-dot" style="background-color:#5968F4; padding: 20px; border-radius:25px;" ></i>
+                </div>
+                <div class="hi">
+                    <p class="para">Location</p>
+                    <h1 class="under">Mail str, Chicago iinois</h1>
+                    <h1 class="under">Main street, New York City</h1>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <p> Photos</p>
+            <h1 style="height: 112px; width: 548px; "> See our latest photos from restaurant and hotel</h1>
+        </div>
+       
     </div>
-    <div style="display: flex; flex-wrap: wrap; margin-left: 60px;">
+    <div class="images" style="display: flex; flex-wrap: wrap; margin-left: 60px;">
         <img src="./images/Rectangle 6.svg">
         <img src="./images/Rectangle 7.svg">
         <img src="./images/Rectangle 8.svg">
